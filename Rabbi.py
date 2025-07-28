@@ -70,7 +70,7 @@ def process_email(update: Update, context: CallbackContext):
 
 # Main Bot Setup
 def main():
-    TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
+    TOKEN = os.getenv("7511446948:AAEFLu8kYsorGRgEpHcnc9ajw28GAFaAC-Q")
     updater = Updater(TOKEN, use_context=True)
     dp = updater.dispatcher
 
